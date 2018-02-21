@@ -62,23 +62,37 @@ $achievements_meta_fields = array(
                 'value' => 'Создать доп. ветку  (develop)'
             ),
             'four' => array (
-                'label' => 'Создать две страници (одна из них главная)',
+                'label' => 'Создать парсер погоды в Запорожье на 3 дня 
+                            Ссылка https://www.gismeteo.ua/weather-zaporizhia-5093/',
+                'value' => 'Создать парсер погоды в Запорожье на 3 дня 
+                            Ссылка https://www.gismeteo.ua/weather-zaporizhia-5093/'
+            ),
+            'five' => array (
+                'label' => 'Создать wordpress тему с названием (My weather)',
                 'value' => 'Создать две страници (одна из них главная)'
             ),
             'six' => array (
+                'label' => 'Создать две страници (одна из них главная)',
+                'value' => 'Создать две страници (одна из них главная)'
+            ),
+            'seven' => array (
                 'label' => 'Создать template хедера, где вывисок страниц, подвязать template к страницам',
                 'value' => 'Создать template хедера, где вывисок страниц, подвязать template к страницам'
             ),
-            'seven' => array (
+            'eight' => array (
                 'label' => 'На главной странице отобразить удобочитаемую табличку с парсингом погоды',
                 'value' => 'На главной странице отобразить удобочитаемую табличку с парсингом погоды'
             ),
-            'eight' => array (
+            'nine' => array (
                 'label' => 'Создать Post Type',
                 'value' => 'Создать Post Type'
             ),
-            'nine' => array (
+            'ten' => array (
                 'label' => 'Создать поля для даного Post Type',
+                'value' => 'Создать поля для даного Post Type'
+            ),
+            'eleven' => array (
+                'label' => 'Отобразить на второй странице созданные Посты',
                 'value' => 'Создать поля для даного Post Type'
             )
         )
@@ -90,6 +104,7 @@ $achievements_meta_fields = array(
         'type'  => 'number'
     )
 );
+
 
 if ( ! function_exists( 'my_achievements_cp' ) ) {
 
